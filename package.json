@@ -1,0 +1,15 @@
+{
+  "name": "reqif",
+  "version": "0.0.1",
+  "description": "A ReqIF import/export utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew LaMarche",
+  
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
