@@ -64,3 +64,5 @@ interface AttributeValueXHTML extends AttributeValue {
     theValue: XHTMLContent
     theOriginalValue?: XHTMLContent
 }
+
+interface XHTMLContent {}

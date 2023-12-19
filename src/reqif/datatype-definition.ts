@@ -1,4 +1,5 @@
 import { EnumValue } from "./base"
+import { ReqIFContent } from "./spec"
 
 export interface DatatypeDefinition {
     /**
@@ -10,7 +11,7 @@ export interface DatatypeDefinition {
 /**
  * Defines primitive ReqIF datatypes
  */
-interface DatatypeDefinitionSimple<T> extends DatatypeDefinition{ // TODO - restrict T to certain types
+interface DatatypeDefinitionSimple<T> extends DatatypeDefinition { // TODO - restrict T to certain types
     
     /**
      * Applies to integer and reals
@@ -33,13 +34,13 @@ interface DatatypeDefinitionSimple<T> extends DatatypeDefinition{ // TODO - rest
     maxLength?: number 
 }
 
-export interface DatatypeDefinitionEnumeration extends DatatypeDefinition{
+export interface DatatypeDefinitionEnumeration extends DatatypeDefinition {
     specifiedValues: EnumValue[]
 }
 
 /**
  * Data type definition for XHTML formatted data
  */
-export interface DatatypeDefinitionXHTML extends DatatypeDefinition{
+export interface DatatypeDefinitionXHTML extends DatatypeDefinition {
 
 }
