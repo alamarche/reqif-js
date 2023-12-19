@@ -11,5 +11,7 @@
     },
     "types": ["vitest/globals"]
   },
-  "exclude": ["./src/**/*.test.ts"]
+  "exclude": [
+    "./src/**/*.test.ts", "./vitest.config.ts"
+  ]
 }

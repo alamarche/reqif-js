@@ -5,7 +5,7 @@
   "main": "out/main.js",
   "type": "module",
   "scripts": {
-    "test": "npx vitest --config ./src/vitest.config.ts"
+    "test": "npx vitest --config ./vitest.config.ts"
   },
   "author": "Andrew LaMarche",
   "license": "ISC",
