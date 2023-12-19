@@ -1,5 +1,7 @@
 import { DefaultXMLNode } from "./xmlnode"
 
+import {describe, it, expect} from 'vitest'
+
 describe("XML Node", () => {
     it("Simple XML export example", () => {
         let x = new DefaultXMLNode(

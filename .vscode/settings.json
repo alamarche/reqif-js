@@ -1,0 +1,8 @@
+{
+    "vitest.commandLine": "npx vitest --config ./src/vitest.config.ts",
+    "vitest.debugExclude": [
+        "**/out/**",
+        "<node_internals>/**",
+        "**/node_modules/**"
+    ],
+}
